@@ -7,7 +7,7 @@ npm install
 npm run dev
 ```
 
-For hypthetical designer to note:
+For hypothetical designer to note:
 - Phone image drop-shadow is exporting with visual artefacts.
 - Should the header be fixed?
 - What does hamburger menu look like expanded?

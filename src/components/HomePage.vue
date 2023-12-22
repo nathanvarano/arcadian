@@ -15,9 +15,9 @@ import AppFooter from './AppFooter.vue'
         <div class="text-center flex flex-col gap-1 justify-end items-center w-full">
           <h3 class="text-light hide-sm">Food app</h3>
           <h5 class="hide-lg">Food app</h5>
-          <h1 class="text-light hide-sm">Why stay hungry when you can order from Bella Onojie</h1>
-          <h2 class="hide-lg">Why stay hungry when you can order from Bella Onojie</h2>
-          <h4 class="text-light grey-text-sm">Download the Bella Onoje's food app now on</h4>
+          <h1 class="text-light hide-sm">Why stay hungry when you can order from Bella Olonje</h1>
+          <h2 class="hide-lg">Why stay hungry when you can order from Bella Olonje</h2>
+          <h4 class="text-light grey-text-sm">Download the Bella Olonje's food app now on</h4>
         </div>
         <div class="button-wrapper flex gap-1 justify-center flex-col-sm items-center">
           <button class="primary large">
@@ -46,13 +46,13 @@ import AppFooter from './AppFooter.vue'
     <section>
       <hero-light
         title="Create an account"
-        subtitle="Create/login to an existing account to get started"
-        description="An account is created with your email and a desired password"
+        subtitle="Create/login to an existing account to get started."
+        description="An account is created with your email and a desired password."
         image-url="src/assets/images/phone-1.png"
       />
       <hero-light
         title="Explore varieties"
-        subtitle="Shop for your favorites meal as e dey hot."
+        subtitle="Shop for your favorites meals."
         description="Shop for your favorite meals or drinks and enjoy while doing it."
         image-url="src/assets/images/phone-2.png"
         class="flex-row-r"

@@ -7,7 +7,7 @@
       <a href="#"><img src="../assets/icons/instagram.svg" /></a>
       <a href="#"><img src="../assets/icons/linkedin.svg" /></a>
     </div>
-    <p class="text-grey">Copywright 2020 Bella Onojie.com</p>
+    <p class="text-grey">Copywright 2020 Bella Olonje.com</p>
   </footer>
 </template>
 

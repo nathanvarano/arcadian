@@ -12,7 +12,7 @@ For hypothetical designer to note:
 - Should the header be fixed?
 - What does hamburger menu look like expanded?
 - Need consistency with fullstops 
-- The are specifications around google play and appstore buttons e.g,: https://play.google.com/intl/en_us/badges/
+- There are specifications around google play and appstore buttons e.g,: https://play.google.com/intl/en_us/badges/
 - Header banner buttons are off-centered for desktop
 - Are the header and footer banners displaying on every page?
 - Linkedin icon doesnt show on desktop

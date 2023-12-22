@@ -12,7 +12,10 @@ import AppFooter from './AppFooter.vue'
         <div class="header-banner-img w-full bg-light-sm absolute" />
       </div>
       <div class="header-banner w-full flex flex-col justify-end items-center relative">
-        <div class="text-center flex flex-col gap-1 justify-end items-center w-full">
+        <div
+          class="text-center flex flex-col gap-1 justify-end items-center w-full"
+          style="max-width: 60rem"
+        >
           <h3 class="text-light hide-sm">Food app</h3>
           <h5 class="hide-lg">Food app</h5>
           <h1 class="text-light hide-sm">Why stay hungry when you can order from Bella Olonje</h1>

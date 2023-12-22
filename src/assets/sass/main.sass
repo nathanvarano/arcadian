@@ -55,7 +55,6 @@ a
   letter-spacing: 0.0125rem
   text-decoration: none
   cursor: pointer
-  z-index: 2
 
   &[active]
     color: $accent
@@ -106,6 +105,9 @@ button
 .flex-col
   flex-direction: column
 
+.flex-row-r
+  flex-direction: row-reverse
+
 .justify-center
   justify-content: center
 
@@ -124,6 +126,12 @@ button
 .text-center
   text-align: center
 
+.relative
+  position: relative
+
+.absolute
+  position: absolute
+
 .w-full
   width: 100%
 
@@ -135,6 +143,9 @@ button
 
 .gap-6
   gap: 6rem
+
+.z-2
+  z-index: 2
 
 @media (max-width: $layout-breakpoint-small)
   .flex-col-r-sm
@@ -149,10 +160,18 @@ button
     color: $dark-text
   .grey-text-sm
     color: $grey-text
+  .bg-dark-sm
+    background: $dark-background !important
+  .bg-light-sm
+    background: $light-background !important
   .border-accent-sm
     border-color: $accent
   .text-accent-sm
     color: $accent
+  .mt-2-sm
+    margin-top: 2rem
+  .items-center-sm
+    align-items: center
   *
     text-align: center
 

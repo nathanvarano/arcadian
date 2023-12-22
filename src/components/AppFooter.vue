@@ -14,7 +14,6 @@
 <style scoped lang="sass">
 .logo-img
     width: 15rem
-
 footer
     height: 2rem
     padding: 7rem 3rem

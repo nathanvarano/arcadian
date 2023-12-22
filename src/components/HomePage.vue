@@ -9,9 +9,9 @@ import AppFooter from './AppFooter.vue'
     <app-header />
     <section>
       <div>
-        <div class="header-banner-img w-full" />
+        <div class="header-banner-img w-full bg-light-sm absolute" />
       </div>
-      <div class="header-banner w-full flex flex-col justify-end items-center">
+      <div class="header-banner w-full flex flex-col justify-end items-center relative">
         <div class="text-center flex flex-col gap-1 justify-end items-center w-full">
           <h3 class="text-light hide-sm">Food app</h3>
           <h5 class="hide-lg">Food app</h5>
@@ -34,7 +34,7 @@ import AppFooter from './AppFooter.vue'
       </div>
       <div class="flex justify-center" style="w-100%">
         <div class="phone-wrapper flex justify-center items-center">
-          <img class="phones w-full" src="../assets/images/phones.png" />
+          <img class="phones w-full z-2" src="../assets/images/phones.png" alt="" />
         </div>
       </div>
     </section>
@@ -55,7 +55,7 @@ import AppFooter from './AppFooter.vue'
         subtitle="Shop for your favorites meal as e dey hot."
         description="Shop for your favorite meals or drinks and enjoy while doing it."
         image-url="src/assets/images/phone-2.png"
-        :is-reversed="true"
+        class="flex-row-r"
       />
       <hero-light
         title="Checkout"
@@ -65,7 +65,7 @@ import AppFooter from './AppFooter.vue'
       />
     </section>
     <section>
-      <div class="footer-banner flex flex-col justify-center items-center">
+      <div class="footer-banner flex flex-col justify-center items-center bg-dark-sm">
         <div class="text-wrapper flex flex-col justify-center items-center gap-1">
           <h2 class="text-light">Download the app now.</h2>
           <div>
@@ -93,37 +93,21 @@ import AppFooter from './AppFooter.vue'
 <style scoped lang="sass">
 @import 'src/assets/sass/variables.sass'
 .header-banner
-  height: 29rem
-  position: relative
-  @media (max-width: $layout-breakpoint-small)
-    height: 31rem
+  height: clamp(31rem, $layout-breakpoint-small, 29rem)
 
 .button-wrapper
   margin-top: 2.5rem
 
 .header-banner-img
-  height: 38.6875rem
-  position: absolute
-  background: $banner-gradient, url(src/assets/images/header-banner.jpeg)
-  background-size: cover
-  @media (max-width: $layout-breakpoint-small)
-    background: #FFF
+  height: 39rem
+  background: $banner-gradient, url(src/assets/images/header-banner.jpeg) center / cover
 
-.phones
-  max-width: 34.25rem
-  z-index: 2
+.footer-banner
+  height: 32rem
+  background: $banner-gradient, url(src/assets/images/footer-banner.jpeg) center / cover
 
 .phone-wrapper
   padding-bottom: 8rem
-
-.footer-banner
-  width: 100%
-  height: 32.25rem
-  background: $banner-gradient, url(src/assets/images/footer-banner.jpeg)
-  background-size: cover
-  background-position: center
-  @media (max-width: $layout-breakpoint-small)
-    background: $dark-background
 
 #how-the-app-works
   max-width: 55rem
